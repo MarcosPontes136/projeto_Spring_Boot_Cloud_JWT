@@ -31,7 +31,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 			throw new UsernameNotFoundException(userName);
 		}
 		
-		return new User(user.getUserName(), user.getPassword(), Collections.emptyList());
+		return new User(user.getUserName(), user.getPassword(), Collections.emptyList()); 
 	}
 
 	private UserData findUser(String userName) {

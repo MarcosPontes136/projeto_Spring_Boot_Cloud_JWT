@@ -8,9 +8,9 @@ Esse metodo gera uma chave, que chamamos de Token, que ao ser gerado será utili
 Auth0 implementa as regras para geração do token JWT de maneira fácil e simples.
 
 ```shell script
-<dependency>
-	<groupId>com.auth0</groupId>
-	<artifactId>java-jwt</artifactId>
-	<scope>3.13.0</scope>
-</dependency>
+		<dependency>
+			<groupId>com.auth0</groupId>
+			<artifactId>java-jwt</artifactId>
+			<version>3.13.0</version>
+		</dependency>
 ```
